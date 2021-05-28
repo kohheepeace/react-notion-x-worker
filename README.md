@@ -1,5 +1,5 @@
 # react-notion-x-worker
-Express api server to fetch [notion-client](https://github.com/NotionX/react-notion-x/tree/master/packages/notion-client) data from client-side.
+Express api server to fetch [react-notion-x](https://github.com/NotionX/react-notion-x) data from client-side.
 
 ## Why ?
 I wanted to use `react-notion-x` from the client side, but it doesn't work due to CORS restrictions.
