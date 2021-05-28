@@ -10,12 +10,15 @@ app.use(logger("dev"));
 
 app.get("/pages/:id", async (req, res, next) => {
 	const id = req.params.id;
+
+	// https://thecodebarbarian.com/80-20-guide-to-express-error-handling
 	try {
 		const recordMap = await notion.getPage(id);
-		res.json(recordMap);
-	} catch (err) {
-		next(err);
+	} catch (error) {
+		res.status(404).send(error.toString());
 	}
+
+	res.json(recordMap);
 });
 
 app.listen(PORT, () => {
