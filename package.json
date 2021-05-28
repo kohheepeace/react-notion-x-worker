@@ -1,0 +1,11 @@
+{
+  "name": "react-notion-x-worker",
+  "version": "0.0.1",
+  "description": "This is a express api server to serve react-notion-x recordMap",
+  "main": "index.js",
+  "author": "kohheepeace",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
