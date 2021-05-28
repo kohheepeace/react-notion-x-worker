@@ -8,7 +8,7 @@ By deploying this `react-notion-x-worker`, **you can fetch the notion api from t
 
 
 ## How to use
-```
+```sh
 git clone https://github.com/kohheepeace/react-notion-x-worker.git
 cd react-notion-x-worker
 
