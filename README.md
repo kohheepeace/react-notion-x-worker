@@ -14,7 +14,7 @@ cd react-notion-x-worker
 
 heroku login
 heroku create
-git push heroku master
+git push heroku main
 heroku open
 ```
 
